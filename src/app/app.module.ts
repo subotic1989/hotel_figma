@@ -7,7 +7,10 @@ import { LuxuryComponent } from './components/luxury/luxury.component';
 import { NavbarModule } from './components/navbar/navbar.module';
 import { WellnessComponent } from './components/wellness/wellness.component';
 import { RestaurantComponent } from './components/restaurant/restaurant.component';
-import { AdvantagesComponent } from './components/advantages2/advantages.component';
+import { AdvantagesSecComponent } from './components/advantages-sec/advantages-sec.component';
+import { RoomsComponent } from './components/rooms/rooms.component';
+import { CirclesComponent } from './components/circles/circles.component';
+import { TestimonialsComponent } from './components/testimonials/testimonials.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { AdvantagesComponent } from './components/advantages2/advantages.compone
     LuxuryComponent,
     WellnessComponent,
     RestaurantComponent,
-    AdvantagesComponent,
+    AdvantagesSecComponent,
+    RoomsComponent,
+    CirclesComponent,
+    TestimonialsComponent,
   ],
   imports: [BrowserModule, NavbarModule],
   bootstrap: [AppComponent],

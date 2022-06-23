@@ -30,7 +30,7 @@
 }
 
 .media {
-  margin-bottom: 60px;
+  margin-bottom: 64px;
 }
 
 .booking {
@@ -57,6 +57,10 @@
   right: 65px;
   top: -45px;
   z-index: -1;
+}
+
+h4 {
+  margin-bottom: 65px;
 }
 
 h1,

@@ -1,0 +1,9 @@
+.circles {
+  margin: 0 auto;
+  width: 1440px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 135px;
+  background-image: url("../../../assets/images/other_images/rectangle.png");
+}

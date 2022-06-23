@@ -16,7 +16,7 @@
 }
 
 .luxury__data .data-icon {
-  margin-bottom: 55px;
+  margin-bottom: 32px;
   width: 122px;
   height: 122px;
   border-radius: 15px;
@@ -31,12 +31,12 @@
   line-height: 64px;
   color: #333333;
   font-weight: 100;
-  margin-bottom: 50px;
+  margin-bottom: 28px;
 }
 
 .luxury__data p {
   color: #909294;
-  margin-bottom: 45px;
+  margin-bottom: 38px;
   font-size: 18px;
 }
 
@@ -59,20 +59,6 @@
   z-index: 1;
   box-shadow: 20px 20px 40px 1px rgba(0, 0, 0, 0.1);
   border-radius: 30px;
-}
-
-.percentage {
-  position: absolute;
-  bottom: 60px;
-  right: -100px;
-  filter: drop-shadow(20px 20px 40px 1px rgba(0, 0, 0, 0.1));
-}
-
-.shape {
-  position: absolute;
-  bottom: 220px;
-  left: -45px;
-  z-index: -1;
 }
 
 .card-1,
@@ -100,6 +86,20 @@
   height: 70%;
 }
 
+.percentage {
+  position: absolute;
+  bottom: 60px;
+  right: -100px;
+  filter: drop-shadow(20px 20px 40px 1px rgba(0, 0, 0, 0.1));
+}
+
+.shape {
+  position: absolute;
+  bottom: 220px;
+  left: -45px;
+  z-index: -1;
+}
+
 .play {
   display: flex;
   flex-direction: row;
@@ -120,16 +120,4 @@
 .play__data .data-time {
   font-size: 18px;
   color: #909294;
-}
-
-.card-2 {
-  width: 90%;
-  bottom: -16px;
-  z-index: -3;
-}
-
-.card-3 {
-  width: 80%;
-  bottom: -32px;
-  z-index: -4;
 }

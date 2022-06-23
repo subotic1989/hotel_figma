@@ -1,0 +1,113 @@
+.advantages {
+  width: 1440px;
+  height: 879px;
+  margin: 0 auto;
+}
+
+.advantages h2 {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 100;
+  margin: 88px 0 65px 0;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  grid-template-areas:
+    "one one two two"
+    "one one thr for";
+}
+
+.one {
+  grid-area: one;
+  position: relative;
+}
+
+.two {
+  grid-area: two;
+  min-height: 100%;
+}
+
+.thr {
+  grid-area: thr;
+}
+
+.for {
+  grid-area: for;
+  position: relative;
+}
+
+.advantages__card,
+.events,
+.price,
+.cancellation {
+  box-shadow: 20px 20px 40px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  padding: 30px;
+  height: 100%;
+}
+
+.advantages__card,
+.cancellation {
+  background-color: #fff;
+}
+
+.shape {
+  position: absolute;
+  z-index: -1;
+  bottom: 290px;
+  left: -45px;
+}
+
+.shape2 {
+  position: absolute;
+  z-index: -1;
+  bottom: 65px;
+  right: -45px;
+}
+
+.events {
+  display: flex;
+}
+
+.events img {
+  margin-right: 23px;
+}
+
+.events img,
+.cancellation img {
+  width: 110px;
+  height: 100px;
+}
+
+.price img {
+  width: 90px;
+  height: 85px;
+}
+
+h3 {
+  font-size: 40px;
+  margin: 35px 0 15px 0;
+  font-weight: 100;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 18px;
+  margin-top: 18px;
+}
+
+p {
+  color: #909294;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+.price {
+  background-color: #edf1f5;
+}

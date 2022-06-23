@@ -15,7 +15,7 @@
 }
 
 .wellness__data .data-icon {
-  margin-bottom: 55px;
+  margin-bottom: 32px;
   width: 122px;
   height: 122px;
   border-radius: 15px;
@@ -30,12 +30,12 @@
   line-height: 64px;
   color: #333333;
   font-weight: 100;
-  margin-bottom: 50px;
+  margin-bottom: 28px;
 }
 
 .wellness__data p {
   color: #909294;
-  margin-bottom: 45px;
+  margin-bottom: 38px;
   font-size: 18px;
 }
 
