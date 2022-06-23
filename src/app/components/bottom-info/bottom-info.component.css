@@ -1,0 +1,114 @@
+.container {
+  height: 416px;
+  width: 1440px;
+  margin: 0 auto;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas: "one two three";
+  background: rgba(44, 70, 100, 1);
+}
+
+.one,
+.two,
+.three {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.one h3 {
+  font-size: 40px;
+  text-align: left;
+  line-height: 48px;
+  color: #ffffff;
+  font-weight: 100;
+  margin-bottom: 15px;
+}
+
+.one span {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-bottom: 5px;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+.one span img {
+  margin-right: 8px;
+}
+
+.two {
+  grid-area: two;
+  width: 70%;
+  display: flex;
+}
+
+.two .menu {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.two h4 {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  font-weight: 100;
+}
+
+.two .menu a {
+  color: #ffffff;
+  margin-bottom: 5px;
+  font-weight: 100;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.two .menu .menu-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.two .menu .menu-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.three {
+  grid-area: three;
+  width: 70%;
+}
+
+.three h4 {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 28px;
+  font-weight: 100;
+}
+
+.three p {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 100;
+  position: relative;
+  bottom: -35px;
+}
+
+.three .mail input {
+  width: 272px;
+  height: 50px;
+  border: 1px solid #dadada;
+  background: rgba(255, 255, 255, 1);
+  padding-left: 10px;
+  position: absolute;
+}
+
+.send-icon {
+  position: relative;
+  left: 230px;
+  top: 12px;
+}

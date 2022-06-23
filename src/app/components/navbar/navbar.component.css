@@ -5,30 +5,31 @@
   align-items: center;
 }
 
-.navbar__logo a {
+.navbar .navbar__logo a {
   font-size: 40px;
   color: #fff;
 }
 
-.navbar__menu ul {
+.navbar .navbar__menu ul {
   display: flex;
 }
 
-.navbar__menu ul li {
-  padding: 0px 10px;
+.navbar .navbar__menu ul li {
+  padding: 0px 14px;
   list-style: none;
+  font-weight: 100;
 }
 
-.navbar__menu ul li a {
+.navbar .navbar__menu ul li a {
   color: #fff;
   font-size: 18px;
 }
 
-.navbar__btn button {
+.navbar .navbar__btn button {
   width: 170px;
   height: 48px;
   border-radius: 24px;
   border: 1px solid #fff;
-  background-color: transparent;
   color: #fff;
+  background-color: transparent;
 }
