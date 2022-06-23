@@ -8,6 +8,7 @@
 .navbar .navbar__logo a {
   font-size: 40px;
   color: #fff;
+  font-weight: 100;
 }
 
 .navbar .navbar__menu ul {
@@ -33,3 +34,16 @@
   color: #fff;
   background-color: transparent;
 }
+
+/* @media screen and (max-width: 375px) {
+  .navbar {
+    justify-content: unset;
+  }
+  .navbar__menu {
+    display: none;
+  }
+  .navbar .navbar__btn button {
+    width: 138px;
+    height: 48px;
+  }
+} */

@@ -68,3 +68,20 @@
   top: -45px;
   z-index: -1;
 }
+
+/* @media screen and (min-width: 375px) {
+  .hero {
+    padding: 0 15px;
+    justify-content: unset;
+    background-image: url("../../../assets/images/background_image/bitmap_ek1.png");
+  }
+  .booking {
+    display: none;
+  }
+  h1 {
+    margin-bottom: 27px;
+  }
+  h4 {
+    margin-bottom: 39px;
+  }
+} */

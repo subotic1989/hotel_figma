@@ -121,3 +121,9 @@
   font-size: 18px;
   color: #909294;
 }
+
+/* @media screen and (min-width: 375px) {
+  .luxury {
+    padding: 0 15px;
+  }
+} */
