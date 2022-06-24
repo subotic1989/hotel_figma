@@ -114,10 +114,22 @@
   background-color: #fff;
 }
 
-.card-1 {
+.card .card-1 {
   width: 100%;
   height: 100%;
   z-index: 5;
+}
+
+.card .card-2 {
+  width: 90%;
+  bottom: -16px;
+  z-index: -3;
+}
+
+.card .card-3 {
+  width: 80%;
+  bottom: -32px;
+  z-index: -4;
 }
 
 .card-1__img {
