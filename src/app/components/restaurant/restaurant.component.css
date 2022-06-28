@@ -136,3 +136,9 @@
   background-image: url("../../../assets/images/card_images/bitmap_ek7.png");
   height: 70%;
 }
+
+/* @media (min-width: 375px) {
+  * {
+    display: none !important;
+  }
+} */

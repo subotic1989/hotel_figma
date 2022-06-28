@@ -3,3 +3,9 @@
   height: 240px;
   margin: 0 auto;
 }
+
+/* @media (min-width: 375px) {
+  * {
+    display: none !important;
+  }
+} */

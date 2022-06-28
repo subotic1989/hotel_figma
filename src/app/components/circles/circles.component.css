@@ -4,3 +4,9 @@
   margin: 0 auto;
   background-image: url("../../../assets/images/other_images/rectangle.png");
 }
+
+/* @media (min-width: 375px) {
+  * {
+    display: none !important;
+  }
+} */

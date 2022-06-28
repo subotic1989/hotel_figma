@@ -112,3 +112,9 @@
   left: 230px;
   top: 12px;
 }
+
+/* @media (min-width: 375px) {
+  * {
+    display: none !important;
+  }
+} */

@@ -126,3 +126,9 @@
   border: 1px solid #909294;
   background: transparent;
 }
+
+/* @media (min-width: 375px) {
+  * {
+    display: none !important;
+  }
+} */

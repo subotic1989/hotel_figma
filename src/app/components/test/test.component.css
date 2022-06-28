@@ -1,0 +1,83 @@
+.card {
+  display: block;
+  min-width: 570px;
+  height: 560px;
+  position: relative;
+  z-index: 4;
+  box-shadow: 20px 20px 40px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+}
+
+.card-1,
+.card-2,
+.card-3 {
+  position: absolute;
+  height: 100px;
+  box-shadow: 20px 20px 40px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+.card .card-1 {
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+
+.card .card-2 {
+  width: 90%;
+  bottom: -16px;
+  z-index: 2;
+}
+
+.card .card-3 {
+  width: 80%;
+  bottom: -32px;
+  z-index: 1;
+}
+
+.card .card-1 .card-1__img {
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+}
+
+.card .card-1 .percentage {
+  position: absolute;
+  bottom: 60px;
+  right: -100px;
+  filter: drop-shadow(20px 20px 40px 1px rgba(0, 0, 0, 0.1));
+}
+
+.card .card-1 .shape {
+  position: absolute;
+  bottom: 220px;
+  left: -45px;
+  z-index: -1;
+}
+
+.card .card-1 .play {
+  display: flex;
+  flex-direction: row;
+  padding: 45px;
+}
+
+.card .card-1 .play__data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 20px;
+}
+
+.card .card-1 .play__data .data-fun {
+  font-size: 24px;
+}
+
+.card .card-1 .play__data .data-time {
+  font-size: 18px;
+  color: #909294;
+}

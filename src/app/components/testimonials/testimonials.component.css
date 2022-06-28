@@ -171,3 +171,9 @@
   margin-top: 0px;
   margin-bottom: 15px;
 }
+
+/* @media (min-width: 375px) {
+  * {
+    display: none !important;
+  }
+} */

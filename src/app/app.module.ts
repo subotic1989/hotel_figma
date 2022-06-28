@@ -15,6 +15,7 @@ import { BlogComponent } from './components/blog/blog.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { BottomInfoComponent } from './components/bottom-info/bottom-info.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { TestComponent } from './components/test/test.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { FooterComponent } from './components/footer/footer.component';
     BannerComponent,
     BottomInfoComponent,
     FooterComponent,
+    TestComponent,
   ],
   imports: [BrowserModule, NavbarModule],
   bootstrap: [AppComponent],
