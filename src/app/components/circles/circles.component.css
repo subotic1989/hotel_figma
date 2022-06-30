@@ -1,12 +1,17 @@
-.circles {
-  width: 1440px;
-  height: 400px;
-  margin: 0 auto;
-  background-image: url("../../../assets/images/other_images/rectangle.png");
+.circles img {
+  width: 100%;
+  height: auto;
 }
 
-/* @media (min-width: 375px) {
-  * {
+.mobile_mode {
+  display: none;
+}
+
+@media (max-width: 670px) {
+  .mobile_mode {
+    display: block;
+  }
+  .desktop_mode {
     display: none !important;
   }
-} */
+}

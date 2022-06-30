@@ -35,12 +35,23 @@
   background-color: transparent;
 }
 
-/* @media (max-width: 375px) {
-  .navbar {
-    width: 100%;
-    justify-content: space-evenly;
-  }
-  .navbar__menu {
+.mobile-mode {
+  display: block;
+}
+
+.desktop-mode {
+  display: none;
+}
+
+@media (max-width: 880px) {
+  .mobile-mode {
     display: none;
   }
-} */
+  .desktop-mode {
+    display: block;
+  }
+  .navbar .navbar__btn button {
+    width: 118px;
+    height: 46px;
+  }
+}

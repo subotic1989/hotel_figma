@@ -1,12 +1,9 @@
 .container {
-  height: 416px;
-  width: 1440px;
-  margin: 0 auto;
+  padding: 70px 135px;
   display: grid;
-  gap: 10px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas: "one two three";
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   background: rgba(44, 70, 100, 1);
+  grid-gap: 30px;
 }
 
 .one,
@@ -15,7 +12,6 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 0 auto;
 }
 
 .one h3 {
@@ -40,12 +36,6 @@
   margin-right: 8px;
 }
 
-.two {
-  grid-area: two;
-  width: 70%;
-  display: flex;
-}
-
 .two .menu {
   margin: 0 auto;
   display: flex;
@@ -68,19 +58,13 @@
   font-size: 18px;
 }
 
-.two .menu .menu-left {
-  display: flex;
-  flex-direction: column;
-}
-
+.two .menu .menu-left,
 .two .menu .menu-right {
   display: flex;
   flex-direction: column;
 }
-
 .three {
-  grid-area: three;
-  width: 70%;
+  width: 100%;
 }
 
 .three h4 {
@@ -94,27 +78,35 @@
   color: #ffffff;
   font-size: 14px;
   font-weight: 100;
-  position: relative;
-  bottom: -35px;
 }
 
-.three .mail input {
-  width: 272px;
-  height: 50px;
-  border: 1px solid #dadada;
-  background: rgba(255, 255, 255, 1);
-  padding-left: 10px;
-  position: absolute;
+.input-container {
+  display: flex;
+  margin-bottom: 15px;
+  width: 100%;
 }
 
-.send-icon {
-  position: relative;
-  left: 230px;
-  top: 12px;
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border: none;
 }
 
-/* @media (min-width: 375px) {
-  * {
-    display: none !important;
+.icon {
+  padding: 10px;
+  min-width: 30px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding: 80px 30px;
   }
-} */
+}
+
+@media (max-width: 700px) {
+  .container {
+    padding: 80px 14px;
+  }
+}
